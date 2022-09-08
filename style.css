@@ -1,0 +1,175 @@
+body{
+    background: linear-gradient(to bottom right, #EC1187 0%, #FF8D10 100%);
+    background-attachment: fixed;
+    font: 14px "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.name{
+    margin-top: 40px;
+}
+
+
+
+button{
+    
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px;
+    background: black;
+    color: white;
+
+}
+
+
+
+.whitebg{
+    height: auto;
+    background: white;
+    border-radius: 32px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.yourname{
+    max-width: 300px;
+    min-width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background: #F67280;
+}
+
+
+.bubble {
+    display: block;
+    margin-top: 44px;
+    border-radius: 24px;
+
+}
+
+.header {
+    padding: 16px 16px 12px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 32px 32px 0 0;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+
+.pfp-container {
+    border-radius: 300px;
+    width: 40px;
+    height: 40px;
+    background-color: #F1F1F1;
+    background-image: url(instagramlogo.png);
+    background-position: center center;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    display: block;
+}
+
+.user-container {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.username {
+    font-weight: 500;
+}
+.prompt {
+    font-weight: bold;
+}
+
+.top-right-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(/images/top-right-corner.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.top-left-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/images/top-left-corner.svg);
+    width: 24px;
+    height: 24px;
+}
+
+
+
+textarea {
+    width: 100%;
+    padding: 18px 24px;
+    height: 140px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    overflow: auto;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    min-height: 100px;
+    background-color: #F67280;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
+
+.warning{
+
+}

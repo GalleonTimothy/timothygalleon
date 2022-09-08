@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+  var disclaimer =  document.querySelector("img[alt='www.000webhost.com']");
+   if(disclaimer){
+       disclaimer.remove();
+   }  
+ });
+
+</script>
+</head>
+<body>
+
+
+<form action="post.php" method="POST">
+
+	<div class="bubble">
+		<div class="header">
+			<div class="pfp-container"></div>
+			<div class="user-container">
+				<div class="username">@TimothyGalleon</div>
+				<div class="prompt">send me anonymous messages!</div>
+			</div>
+		</div>
+		<div class="textarea-container">
+			<div class="top-right-corner"></div>
+			<div class="top-left-corner"></div>
+			<textarea placeholder="send me anonymous messages…" name="messages" autocomplete="off" maxlength="300"></textarea>
+		</div>
+		
+<br>
+		<center><input type="text" name="name" placeholder="@Your Name" required class="yourname"></center>
+		<center><p class="warning">Don't worry the receiver wont see your name.</p></center>
+		<br>
+		<center>🔒 anonymous q&a
+		<br>
+		<br>
+<button type="submit" class="sendmo">Send!</button></center>
+</form>
+</body>
+</html>
+
